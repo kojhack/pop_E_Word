@@ -1,7 +1,8 @@
 /*
-    Name : Discord8
-    Date : 04/11/2023
+    Name : Programme C supprimant la lettre "e" dans chaque mot
+    Date : 
     Time :
+    
 
 */
 
@@ -21,7 +22,7 @@ int main()
 
     printf("\n!---Programme de suppression de \"e\"----!");
 
-    printf("\nEntrez une chaine de caractères : ");
+    printf("\nEntrez une chaine de caractÃ¨res : ");
     gets(chaine);
 
     for( int i = 0; chaine[i] !='\0'; i++ )
@@ -41,7 +42,7 @@ int main()
         }
 
     }
-    printf("La chaine de caractère sans les \"e\" , %s. \n", chaine);
+    printf("La chaine de caractÃ¨re sans les \"e\" , %s. \n", chaine);
 
 
 
